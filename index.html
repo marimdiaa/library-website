@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="c:\Users\master\Documents\library-website\library-website\Library Logo Template Design Vector Download_files\images.png" alt="Library Logo" class="logo">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Welcome to Our Library</h1>
+            <p>Explore a world of knowledge and adventure.</p>
+            <button onclick="scrollToSection('books')">Browse Books</button>
+        </div>
+    </section>
+
+    <section id="books" class="section">
+        <div class="container">
+            <h2>Our Book Collection</h2>
+            <input type="text" id="search" placeholder="Search for books..." onkeyup="searchBooks()">
+            <div id="book-list" class="book-list">
+                <!-- Books will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Library Services</h2>
+            <ul>
+                <li>Book Borrowing</li>
+                <li>Reading Areas</li>
+                <li>Free Wi-Fi</li>
+                <li>Community Events</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: info@library.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: Egypt,Tanta</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Library Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
